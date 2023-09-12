@@ -10,7 +10,7 @@ resource "google_storage_bucket" "bucket" {
 
 resource "google_service_account" "bucket" {
   account_id   = "mkaesz-bucket"
-  display_name = "GCS Bucket"
+  display_name = "My GCS Bucket"
 }
 
 resource "google_service_account_key" "bucket" {
